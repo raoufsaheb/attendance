@@ -56,7 +56,6 @@
                   <th>Employee ID</th>
                   <th>Name</th>
                   <th>Time In</th>
-                  <th>Time Out</th>
                   <th>Tools</th>
                 </thead>
                 <tbody>
@@ -71,8 +70,8 @@
                           <td>".date('M d, Y', strtotime($row['date']))."</td>
                           <td>".$row['empid']."</td>
                           <td>".$row['firstname'].' '.$row['lastname']."</td>
-                          <td>".date('h:i A', strtotime($row['time_in'])).$status."</td>
-                          <td>".date('h:i A', strtotime($row['time_out']))."</td>
+                          <td>".date('h:i A', strtotime($row['time_in']))."</td>
+                         
                           <td>
                             <button class='btn btn-success btn-sm btn-flat edit' data-id='".$row['attid']."'><i class='fa fa-edit'></i> Edit</button>
                             <button class='btn btn-danger btn-sm btn-flat delete' data-id='".$row['attid']."'><i class='fa fa-trash'></i> Delete</button>

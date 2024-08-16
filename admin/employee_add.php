@@ -23,7 +23,8 @@
 		for($i = 0; $i < 10; $i++){
 			$numbers .= $i;
 		}
-		$employee_id = substr(str_shuffle($letters), 0, 3).substr(str_shuffle($numbers), 0, 9);
+		// $employee_id = substr(str_shuffle($letters), 0, 2).substr(str_shuffle($numbers), 0, 9);
+		$employee_id = $firstname . "_" . $lastname ;
 		//
 		$sql = "INSERT INTO employees (employee_id, firstname, lastname, address, birthdate, contact_info, gender, position_id, schedule_id, photo, created_on) VALUES ('$employee_id', '$firstname', '$lastname', '$address', '$birthdate', '$contact', '$gender', '$position', '$schedule', '$filename', NOW())";
 		if($conn->query($sql)){

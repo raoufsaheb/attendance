@@ -33,9 +33,12 @@
 					$srow = $squery->fetch_assoc();
 					$logstatus = ($lognow > $srow['time_in']) ? 0 : 1;
 					//
-					$sql = "INSERT INTO attendance (employee_id, date, time_in, status) VALUES ('$id', '$date_now', NOW(), '$logstatus')";
+					$sql = "INSERT INTO attendance (employee_id, date, time_in, time_out, num_hr, status) VALUES ('$id', '$date_now', NOW(), NOW(), '1', '$logstatus')";
 					if($conn->query($sql)){
 						$output['message'] = 'Time in: '.$row['firstname'].' '.$row['lastname'];
+						
+						
+
 					}
 					else{
 						$output['error'] = true;
@@ -92,7 +95,7 @@
 								$int = $int - 1;
 							}
 
-							$sql = "UPDATE attendance SET num_hr = '$int' WHERE id = '".$row['uid']."'";
+							$sql = "UPDATE attendance SET num_hr = '1' WHERE id = '".$row['uid']."'";
 							$conn->query($sql);
 						}
 						else{

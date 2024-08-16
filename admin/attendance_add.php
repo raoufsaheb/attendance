@@ -61,7 +61,7 @@
 						$int = $int - 1;
 					}
 
-					$sql = "UPDATE attendance SET num_hr = '$int' WHERE id = '$id'";
+					$sql = "UPDATE attendance SET num_hr = '1' WHERE id = '$id'";
 					$conn->query($sql);
 
 				}

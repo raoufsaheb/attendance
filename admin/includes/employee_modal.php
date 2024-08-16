@@ -79,7 +79,7 @@
                     <label for="schedule" class="col-sm-3 control-label">Schedule</label>
 
                     <div class="col-sm-9">
-                      <select class="form-control" id="schedule" name="schedule" required>
+                      <select class="form-control" id="schedule" name="schedule" required >
                         <option value="" selected>- Select -</option>
                         <?php
                           $sql = "SELECT * FROM schedules";
