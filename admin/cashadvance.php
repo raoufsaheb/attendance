@@ -11,12 +11,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Cash Advance
+      سلفة نقدية
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li>Employees</li>
-        <li class="active">Cash Advance</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> الصفحة الرئيسية</a></li>
+        <li>الموظفون</li>
+        <li class="active">سلفة نقدية</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -47,17 +47,17 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
-              <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> New</a>
+              <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> جديد</a>
             </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th class="hidden"></th>
-                  <th>Date</th>
-                  <th>Employee ID</th>
-                  <th>Name</th>
-                  <th>Amount</th>
-                  <th>Tools</th>
+                  <th>التاريخ</th>
+                  <th>رقم الموظف</th>
+                  <th>الاسم</th>
+                  <th>المبلغ</th>
+                  <th>الأدوات</th>
                 </thead>
                 <tbody>
                   <?php

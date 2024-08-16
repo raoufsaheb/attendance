@@ -11,11 +11,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Attendance
+      الحضور
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Attendance</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> الصفحة الرئيسية</a></li>
+        <li class="active">الحضور</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -46,18 +46,18 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
-              <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> New</a>
+              <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> جديد</a>
             </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th class="hidden"></th>
-                  <th>Date</th>
-                  <th>Employee ID</th>
-                  <th>Name</th>
-                  <th>Time In</th>
-                  <th>Time Out</th>
-                  <th>Tools</th>
+                  <th>التاريخ</th>
+                  <th>رقم الموظف</th>
+                  <th>الاسم</th>
+                  <th>وقت الدخول</th>
+                  <th>وقت الخروج</th>
+                  <th>الأدوات</th>
                 </thead>
                 <tbody>
                   <?php

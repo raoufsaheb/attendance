@@ -11,7 +11,7 @@
             	<form class="form-horizontal" method="POST" action="schedule_employee_edit.php">
             		<input type="hidden" id="empid" name="id">
                 <div class="form-group">
-                    <label for="edit_schedule" class="col-sm-3 control-label">Schedule</label>
+                    <label for="edit_schedule" class="col-sm-3 control-label">الجدول</label>
 
                     <div class="col-sm-9">
                       <select class="form-control" id="edit_schedule" name="schedule">
@@ -30,8 +30,8 @@
                 </div>
           	</div>
           	<div class="modal-footer">
-            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
-            	<button type="submit" class="btn btn-success btn-flat" name="edit"><i class="fa fa-check-square-o"></i> Update</button>
+            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> إغلاق</button>
+            	<button type="submit" class="btn btn-success btn-flat" name="edit"><i class="fa fa-check-square-o"></i> تحديث</button>
             	</form>
           	</div>
         </div>

@@ -19,11 +19,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
+        لوحة التحكم
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> الصفحة الرئيسية</a></li>
+        <li class="active">لوحة التحكم</li>
       </ol>
     </section>
 
@@ -64,12 +64,12 @@
                 echo "<h3>".$query->num_rows."</h3>";
               ?>
 
-              <p>Total Employees</p>
+              <p>إجمالي الموظفين</p>
             </div>
             <div class="icon">
               <i class="ion ion-person-stalker"></i>
             </div>
-            <a href="employee.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="employee.php" class="small-box-footer">مزيد من المعلومات <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -91,12 +91,12 @@
                 echo "<h3>".number_format($percentage, 2)."<sup style='font-size: 20px'>%</sup></h3>";
               ?>
           
-              <p>On Time Percentage</p>
+              <p>نسبة الالتزام بالمواعيد</p>
             </div>
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
             </div>
-            <a href="attendance.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="attendance.php" class="small-box-footer">مزيد من المعلومات <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -111,12 +111,12 @@
                 echo "<h3>".$query->num_rows."</h3>"
               ?>
              
-              <p>On Time Today</p>
+              <p>في الوقت المحدد اليوم</p>
             </div>
             <div class="icon">
               <i class="ion ion-clock"></i>
             </div>
-            <a href="attendance.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="attendance.php" class="small-box-footer">مزيد من المعلومات <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -131,12 +131,12 @@
                 echo "<h3>".$query->num_rows."</h3>"
               ?>
 
-              <p>Late Today</p>
+              <p>متأخر اليوم</p>
             </div>
             <div class="icon">
               <i class="ion ion-alert-circled"></i>
             </div>
-            <a href="attendance.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="attendance.php" class="small-box-footer">مزيد من المعلومات <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -146,12 +146,11 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">Monthly Attendance Report</h3>
+              <h3 class="box-title">تقرير الحضور الشهري</h3>
               <div class="box-tools pull-right">
                 <form class="form-inline">
                   <div class="form-group">
-                    <label>Select Year: </label>
-                    <select class="form-control input-sm" id="select_year">
+                  <select class="form-control input-sm" id="select_year">
                       <?php
                         for($i=2015; $i<=2065; $i++){
                           $selected = ($i==$year)?'selected':'';
@@ -161,6 +160,8 @@
                         }
                       ?>
                     </select>
+                    <label>:اختر السنة </label>
+                   
                   </div>
                 </form>
               </div>
@@ -219,7 +220,7 @@ $(function(){
     labels  : <?php echo $months; ?>,
     datasets: [
       {
-        label               : 'Late',
+        label               : 'متأخر',
         fillColor           : 'rgba(210, 214, 222, 1)',
         strokeColor         : 'rgba(210, 214, 222, 1)',
         pointColor          : 'rgba(210, 214, 222, 1)',
@@ -229,7 +230,7 @@ $(function(){
         data                : <?php echo $late; ?>
       },
       {
-        label               : 'Ontime',
+        label               : 'في الوقت المحدد',
         fillColor           : 'rgba(60,141,188,0.9)',
         strokeColor         : 'rgba(60,141,188,0.8)',
         pointColor          : '#3b8bba',

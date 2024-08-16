@@ -5,19 +5,19 @@
           	<div class="modal-header">
             	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
               		<span aria-hidden="true">&times;</span></button>
-            	<h4 class="modal-title"><b>Add Overtime</b></h4>
+            	<h4 class="modal-title"><b>إضافة ساعات إضافية</b></h4>
           	</div>
           	<div class="modal-body">
             	<form class="form-horizontal" method="POST" action="overtime_add.php">
           		  <div class="form-group">
-                  	<label for="employee" class="col-sm-3 control-label">Employee ID</label>
+                  	<label for="employee" class="col-sm-3 control-label">رقم الموظف</label>
 
                   	<div class="col-sm-9">
                     	<input type="text" class="form-control" id="employee" name="employee" required>
                   	</div>
                 </div>
                 <div class="form-group">
-                    <label for="datepicker_add" class="col-sm-3 control-label">Date</label>
+                    <label for="datepicker_add" class="col-sm-3 control-label">التاريخ</label>
 
                     <div class="col-sm-9"> 
                       <div class="date">
@@ -26,21 +26,21 @@
                     </div>
                 </div>
                 <div class="form-group">
-                  	<label for="hours" class="col-sm-3 control-label">No. of Hours</label>
+                  	<label for="hours" class="col-sm-3 control-label">عدد الساعات</label>
 
                   	<div class="col-sm-9">
                     	<input type="text" class="form-control" id="hours" name="hours">
                   	</div>
                 </div>
                 <div class="form-group">
-                  	<label for="mins" class="col-sm-3 control-label">No. of Mins</label>
+                  	<label for="mins" class="col-sm-3 control-label">عدد الدقائق</label>
 
                   	<div class="col-sm-9">
                     	<input type="text" class="form-control" id="mins" name="mins">
                   	</div>
                 </div>
                  <div class="form-group">
-                    <label for="rate" class="col-sm-3 control-label">Rate</label>
+                    <label for="rate" class="col-sm-3 control-label">السعر</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="rate" name="rate" required>
@@ -48,8 +48,8 @@
                 </div>
           	</div>
           	<div class="modal-footer">
-            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
-            	<button type="submit" class="btn btn-primary btn-flat" name="add"><i class="fa fa-save"></i> Save</button>
+            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> إغلاق</button>
+            	<button type="submit" class="btn btn-primary btn-flat" name="add"><i class="fa fa-save"></i> حفظ</button>
             	</form>
           	</div>
         </div>
@@ -69,7 +69,7 @@
             	<form class="form-horizontal" method="POST" action="overtime_edit.php">
             		<input type="hidden" class="otid" name="id">
                 <div class="form-group">
-                    <label for="datepicker_edit" class="col-sm-3 control-label">Date</label>
+                    <label for="datepicker_edit" class="col-sm-3 control-label">التاريخ</label>
 
                     <div class="col-sm-9"> 
                       <div class="date">
@@ -78,21 +78,21 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="hours_edit" class="col-sm-3 control-label">No. of Hours</label>
+                    <label for="hours_edit" class="col-sm-3 control-label">عدد الساعات</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="hours_edit" name="hours">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="mins_edit" class="col-sm-3 control-label">No. of Mins</label>
+                    <label for="mins_edit" class="col-sm-3 control-label">عدد الدقائق</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="mins_edit" name="mins">
                     </div>
                 </div>
                  <div class="form-group">
-                    <label for="rate_edit" class="col-sm-3 control-label">Rate</label>
+                    <label for="rate_edit" class="col-sm-3 control-label">السعر</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="rate_edit" name="rate" required>
@@ -100,8 +100,8 @@
                 </div>
           	</div>
           	<div class="modal-footer">
-            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
-            	<button type="submit" class="btn btn-success btn-flat" name="edit"><i class="fa fa-check-square-o"></i> Update</button>
+            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> إغلاق</button>
+            	<button type="submit" class="btn btn-success btn-flat" name="edit"><i class="fa fa-check-square-o"></i> تحديث</button>
             	</form>
           	</div>
         </div>
@@ -121,13 +121,13 @@
             	<form class="form-horizontal" method="POST" action="overtime_delete.php">
             		<input type="hidden" class="otid" name="id">
             		<div class="text-center">
-	                	<p>DELETE OVERTIME</p>
+	                	<p>حذف ساعات إضافية</p>
 	                	<h2 class="employee_name bold"></h2>
 	            	</div>
           	</div>
           	<div class="modal-footer">
-            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
-            	<button type="submit" class="btn btn-danger btn-flat" name="delete"><i class="fa fa-trash"></i> Delete</button>
+            	<button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> إغلاق</button>
+            	<button type="submit" class="btn btn-danger btn-flat" name="delete"><i class="fa fa-trash"></i> حذف</button>
             	</form>
           	</div>
         </div>

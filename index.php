@@ -8,13 +8,13 @@
   	</div>
   
   	<div class="login-box-body">
-    	<h4 class="login-box-msg">Enter Employee ID</h4>
+    	<h4 class="login-box-msg">أدخل رقم الموظف</h4>
 
     	<form id="attendance">
           <div class="form-group">
             <select class="form-control" name="status">
-              <option value="in">Time In</option>
-              <option value="out">Time Out</option>
+              <option value="in">وقت الدخول</option>
+              <option value="out">وقت الخروج</option>
             </select>
           </div>
       		<div class="form-group has-feedback">
@@ -23,7 +23,7 @@
       		</div>
       		<div class="row">
     			<div class="col-xs-4">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i> Sign In</button>
+          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i> تسجيل الدخول</button>
         		</div>
       		</div>
     	</form>
