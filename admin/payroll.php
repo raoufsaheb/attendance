@@ -16,11 +16,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Payroll
+      الرواتب
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Payroll</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> الصفحة الرئيسية</a></li>
+        <li class="active">الرواتب</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -59,20 +59,20 @@
                     </div>
                     <input type="text" class="form-control pull-right col-sm-8" id="reservation" name="date_range" value="<?php echo (isset($_GET['range'])) ? $_GET['range'] : $range_from.' - '.$range_to; ?>">
                   </div>
-                  <button type="button" class="btn btn-success btn-sm btn-flat" id="payroll"><span class="glyphicon glyphicon-print"></span> Payroll</button>
-                  <button type="button" class="btn btn-primary btn-sm btn-flat" id="payslip"><span class="glyphicon glyphicon-print"></span> Payslip</button>
+                  <button type="button" class="btn btn-success btn-sm btn-flat" id="payroll"><span class="glyphicon glyphicon-print"></span> الرواتب</button>
+                  <button type="button" class="btn btn-primary btn-sm btn-flat" id="payslip"><span class="glyphicon glyphicon-print"></span> قسيمة الراتب</button>
                 </form>
               </div>
             </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
-                  <th>Employee Name</th>
-                  <th>Employee ID</th>
-                  <th>Gross</th>
-                  <th>Deductions</th>
-                  <th>Cash Advance</th>
-                  <th>Net Pay</th>
+                  <th>اسم الموظف</th>
+                  <th>رقم الموظف</th>
+                  <th>الإجمالي</th>
+                  <th>الخصومات</th>
+                  <th>سلفة نقدية</th>
+                  <th>صافي الراتب</th>
                 </thead>
                 <tbody>
                   <?php

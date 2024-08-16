@@ -11,11 +11,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Positions
+      الوظائف
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Positions</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> الصفحة الرئيسية</a></li>
+        <li class="active">الوظائف</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -46,14 +46,14 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header with-border">
-              <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> New</a>
+              <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> جديد</a>
             </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
-                  <th>Position Title</th>
-                  <th>Rate per Hour</th>
-                  <th>Tools</th>
+                  <th>عنوان الوظيفة</th>
+                  <th>السعر لكل ساعة</th>
+                  <th>الأدوات</th>
                 </thead>
                 <tbody>
                   <?php

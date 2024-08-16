@@ -10,7 +10,7 @@
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">تبديل التنقل</span>
       </a>
 
       <div class="navbar-custom-menu">
@@ -28,15 +28,15 @@
 
                 <p>
                   <?php echo $user['firstname'].' '.$user['lastname']; ?>
-                  <small>Member since <?php echo date('M. Y', strtotime($user['created_on'])); ?></small>
+                  <small>عضو منذ <?php echo date('M. Y', strtotime($user['created_on'])); ?></small>
                 </p>
               </li>
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#profile" data-toggle="modal" class="btn btn-default btn-flat" id="admin_profile">Update</a>
+                  <a href="#profile" data-toggle="modal" class="btn btn-default btn-flat" id="admin_profile">تحديث</a>
                 </div>
                 <div class="pull-right">
-                  <a href="logout.php" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="logout.php" class="btn btn-default btn-flat">تسجيل الخروج</a>
                 </div>
               </li>
             </ul>

@@ -8,11 +8,11 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   	<div class="login-logo">
-  		<b>Admin Login</b>
+  		<b>تسجيل دخول المسؤول</b>
   	</div>
   
   	<div class="login-box-body">
-    	<p class="login-box-msg">Sign in to start your session</p>
+    	<p class="login-box-msg">تسجيل الدخول للبدء</p>
 
     	<form action="login.php" method="POST">
       		<div class="form-group has-feedback">
@@ -25,7 +25,7 @@
           </div>
       		<div class="row">
     			<div class="col-xs-4">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> Sign In</button>
+          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> تسجيل الدخول</button>
         		</div>
       		</div>
     	</form>
