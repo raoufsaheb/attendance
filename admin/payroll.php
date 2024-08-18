@@ -68,7 +68,7 @@
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th>اسم الموظف</th>
-                  <th>رقم الموظف</th>
+                  <th>اسم الموظف</th>
                   <th>الإجمالي</th>
                   <th>الخصومات</th>
                   <th>سلفة نقدية</th>

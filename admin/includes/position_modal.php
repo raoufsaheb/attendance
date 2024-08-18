@@ -17,7 +17,7 @@
                   	</div>
                 </div>
                 <div class="form-group">
-                    <label for="rate" class="col-sm-3 control-label">السعر لكل ساعة</label>
+                    <label for="rate" class="col-sm-3 control-label">السعر في اليوم</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="rate" name="rate" required>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="edit_rate" class="col-sm-3 control-label">السعر لكل ساعة</label>
+                    <label for="edit_rate" class="col-sm-3 control-label">السعر في اليوم</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_rate" name="rate">

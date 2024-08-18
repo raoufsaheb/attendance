@@ -53,7 +53,7 @@
                 <thead>
                   <th class="hidden"></th>
                   <th>التاريخ</th>
-                  <th>رقم الموظف</th>
+                  <th>اسم الموظف</th>
                   <th>الاسم</th>
                   <th>وقت الدخول</th>
                   

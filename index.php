@@ -8,7 +8,7 @@
   	</div>
   
   	<div class="login-box-body">
-    	<h4 class="login-box-msg">أدخل رقم الموظف</h4>
+    	<h4 class="login-box-msg">أدخل اسم الموظف</h4>
 
     	<form id="attendance">
           <div class="form-group" style="display: none;">
@@ -25,7 +25,7 @@
       		</div>
       		<div class="row">
     			<div class="col-xs-4">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i> تسجيل الدخول</button>
+          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i> تأكيد</button>
         		</div>
       		</div>
     	</form>

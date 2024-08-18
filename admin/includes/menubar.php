@@ -28,7 +28,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="employee.php"><i class="fa fa-circle-o"></i> قائمة الموظفين</a></li>
-            <li><a href="overtime.php"><i class="fa fa-circle-o"></i> ساعات إضافية</a></li>
+            <!-- <li><a href="overtime.php"><i class="fa fa-circle-o"></i> ساعات إضافية</a></li> -->
             <li><a href="cashadvance.php"><i class="fa fa-circle-o"></i> سلفة نقدية</a></li>
             <li><a href="schedule.php"><i class="fa fa-circle-o"></i> الجداول</a></li>
           </ul>

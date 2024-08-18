@@ -10,7 +10,7 @@
           	<div class="modal-body">
             	<form class="form-horizontal" method="POST" action="overtime_add.php">
           		  <div class="form-group">
-                  	<label for="employee" class="col-sm-3 control-label">رقم الموظف</label>
+                  	<label for="employee" class="col-sm-3 control-label">اسم الموظف</label>
 
                   	<div class="col-sm-9">
                     	<input type="text" class="form-control" id="employee" name="employee" required>

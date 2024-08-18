@@ -52,7 +52,7 @@
               <table id="example1" class="table table-bordered">
                 <thead>
                   <th>عنوان الوظيفة</th>
-                  <th>السعر لكل ساعة</th>
+                  <th>السعر في اليوم</th>
                   <th>الأدوات</th>
                 </thead>
                 <tbody>

@@ -52,7 +52,7 @@
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
-                  <th>رقم الموظف</th>
+                  <th>اسم الموظف</th>
                   <th>الاسم</th>
                   <th>الجدول</th>
                   <th>الأدوات</th>
